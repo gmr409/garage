@@ -1,0 +1,12 @@
+{
+  "bundle_name": "garage_design_assets",
+  "bundle_version": "1.0.0",
+  "files": [
+    {"filename":"baseline/garage_baseline.json","role":"machine-readable source of truth"},
+    {"filename":"baseline/garage_baseline.schema.json","role":"JSON Schema validation"},
+    {"filename":"baseline/garage_baseline_prompt.json","role":"image-generation prompt specification"},
+    {"filename":"baseline/garage_baseline_reference.jpg","role":"visual source of truth","sha256":"9db2193df8a21ca9a71fa02ea55234dc264919fda743159d8d407305ce37eea5","bytes":112603},
+    {"filename":"history/garage_baseline_change_history.json","role":"baseline change history"},
+    {"filename":"docs/design-principles.md","role":"design governance"}
+  ]
+}
