@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "garage_baseline.schema.json",
+  "title": "Garage Baseline Design",
+  "type": "object",
+  "required": ["schema_version","project","design_intent","surfaces","lighting","vehicles","wall_art","constraints"],
+  "properties": {
+    "schema_version": {"type":"string"},
+    "project": {
+      "type":"object",
+      "required":["name","milestone","status","version"],
+      "properties": {
+        "name":{"type":"string"},
+        "milestone":{"type":"string"},
+        "status":{"type":"string","enum":["draft","approved","deprecated"]},
+        "version":{"type":"string"},
+        "source_of_truth":{"type":"boolean"}
+      },
+      "additionalProperties":true
+    },
+    "design_intent":{"type":"object"},
+    "surfaces":{"type":"object"},
+    "lighting":{"type":"object"},
+    "vehicles":{
+      "type":"array",
+      "minItems":1,
+      "items":{
+        "type":"object",
+        "required":["id","type","model","location"],
+        "properties":{
+          "id":{"type":"string"},
+          "type":{"type":"string"},
+          "model":{"type":"string"},
+          "location":{"type":"string"}
+        }
+      }
+    },
+    "wall_art":{"type":"object"},
+    "constraints":{"type":"object"},
+    "reference_asset":{"type":"object"}
+  },
+  "additionalProperties":true
+}
