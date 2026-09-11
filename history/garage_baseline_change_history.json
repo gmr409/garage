@@ -1,0 +1,14 @@
+{
+  "project": "Garage Design",
+  "baseline_version": "1.0.0",
+  "history": [
+    {"sequence":1,"change":"Changed floor from unfinished concrete to gray finished surface."},
+    {"sequence":2,"change":"Changed walls to off-white."},
+    {"sequence":3,"change":"Added dark charcoal rear feature wall behind Corvette."},
+    {"sequence":4,"change":"Added large engineering drawings corresponding to each vehicle."},
+    {"sequence":5,"change":"Standardized wall art to equal size with minimum 50 cm spacing."},
+    {"sequence":6,"change":"Updated Tesla artwork to 2026 Tesla Model 3."},
+    {"sequence":7,"change":"Removed parking marker lines."},
+    {"sequence":8,"change":"Confirmed current composition as approved baseline milestone."}
+  ]
+}
