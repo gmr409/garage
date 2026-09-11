@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "Garage Design",
+    "milestone": "Baseline Garage Milestone",
+    "status": "approved",
+    "version": "1.0.0",
+    "source_of_truth": true
+  },
+  "design_intent": {
+    "style": "upscale private automotive showroom",
+    "character": ["clean", "technical", "restrained", "architectural"],
+    "visual_priority": "vehicles remain the primary focal elements"
+  },
+  "surfaces": {
+    "walls": {
+      "primary_color": "off-white",
+      "finish": "matte or eggshell"
+    },
+    "feature_wall": {
+      "location": "rear wall behind Corvette",
+      "color": "dark charcoal"
+    },
+    "floor": {
+      "color": "vivid graphite",
+      "finish": "glossy epoxy or polyaspartic",
+      "parking_lines": false
+    },
+    "ceiling": {
+      "color": "light neutral"
+    }
+  },
+  "lighting": {
+    "primary_type": "linear ceiling LED",
+    "layout": "longitudinal",
+    "color_temperature_k": 4000,
+    "style": "clean architectural",
+    "hex_lighting": false
+  },
+  "vehicles": [
+    {"id":"vehicle_1","type":"car","model":"2026 Tesla Model 3","location":"left side"},
+    {"id":"vehicle_2","type":"car","model":"Chevrolet Corvette C8","location":"rear center"},
+    {"id":"vehicle_3","type":"motorcycle","model":"Yamaha YZF-R1","location":"right rear"},
+    {"id":"vehicle_4","type":"motorcycle","model":"Ducati Streetfighter V4","location":"right front"}
+  ],
+  "wall_art": {
+    "type": "framed engineering drawings",
+    "style": "technical blueprint presentation",
+    "same_size": true,
+    "minimum_spacing_cm": 50,
+    "frame_color": "black",
+    "background_color": "light neutral",
+    "subjects": [
+      "2026 Tesla Model 3",
+      "Chevrolet Corvette C8",
+      "Yamaha YZF-R1",
+      "Ducati Streetfighter V4"
+    ]
+  },
+  "constraints": {
+    "preserve_vehicle_layout": true,
+    "preserve_engineering_art": true,
+    "preserve_art_scale_consistency": true,
+    "preserve_minimum_art_spacing_cm": 50,
+    "no_parking_lines": true,
+    "avoid_visual_clutter": true,
+    "avoid_additional_wall_art_unless_requested": true
+  },
+  "reference_asset": {
+    "filename": "garage_baseline_reference.jpg",
+    "role": "visual reference for composition, spacing, lighting, and overall appearance"
+  }
+}
