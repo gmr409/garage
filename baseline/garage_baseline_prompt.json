@@ -1,0 +1,14 @@
+{
+  "asset_type": "image_generation_design_spec",
+  "version": "1.0.0",
+  "baseline_reference": "garage_baseline_reference.jpg",
+  "instruction": "Use the approved baseline as the starting point. Preserve all listed constraints unless a requested variation explicitly overrides them.",
+  "prompt": "Create a refined upscale private automotive showroom garage based on the approved baseline reference. Use off-white side walls, a dark charcoal rear feature wall behind the centered red Chevrolet Corvette C8, and a vivid graphite glossy epoxy or polyaspartic floor with no parking lines. Keep longitudinal linear LED ceiling lighting at approximately 4000K. Preserve the existing vehicle layout: 2026 Tesla Model 3 on the left, Chevrolet Corvette C8 at rear center, Yamaha YZF-R1 at right rear, and Ducati Streetfighter V4 at right front. Display large framed engineering drawings for each corresponding vehicle, all the same size, black frames, light neutral backgrounds, and at least 50 cm between artworks. Maintain a clean, technical, restrained, architectural aesthetic. Avoid visual clutter. The vehicles must remain the primary focal elements.",
+  "negative_constraints": [
+    "no parking lines",
+    "no extra cabinetry",
+    "no additional decorative wall art unless requested",
+    "no dense honeycomb ceiling lighting unless requested",
+    "do not change vehicle positions unless requested"
+  ]
+}
